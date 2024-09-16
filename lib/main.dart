@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone2/Widgets/BoldText.dart';
 import 'package:whatsapp_clone2/Widgets/MobileScreen.dart';
 import 'package:whatsapp_clone2/Widgets/Responsive.dart';
 import 'package:whatsapp_clone2/Widgets/WebScreen.dart';
