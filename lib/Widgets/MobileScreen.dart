@@ -1,16 +1,16 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: unused_local_variable, must_be_immutable
 
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone2/Colors/Colors.dart';
 import 'package:whatsapp_clone2/Pages/CallPage.dart';
 import 'package:whatsapp_clone2/Pages/StatusPage.dart';
 import 'package:whatsapp_clone2/Widgets/LightText.dart';
-import 'package:whatsapp_clone2/Widgets/Messages.dart';
+import 'package:whatsapp_clone2/Pages/ChatPage.dart';
 
 class MobileScreen extends StatelessWidget {
   MobileScreen({super.key});
 
-  List<Widget> Pages = [Messages(), StatusPage(), CallPage()];
+  List<Widget> Pages = [ChatPage(), StatusPage(), CallPage()];
 
   @override
   Widget build(BuildContext context) {
