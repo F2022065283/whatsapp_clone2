@@ -72,7 +72,7 @@ class _MessagePageState extends State<MessagePage> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      // add to list
+                      // add to list..
 
                       Map<String, dynamic> map = {
                         "isMe": true,
